@@ -25,10 +25,10 @@ namespace EmployManagementApplication.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Employee>().HasData(
-            //    new Employee { Id = 1, Name = "James A", Surname = "james", Address = "Badlapur" },
-            //    new Employee { Id = 2, Name = "Malcolm B", Surname = "jagtap", Address = "Airoli" }
-            //    );
+            modelBuilder.Entity<Employee>().HasData(
+               new Employee { Id = 1, Name = "James A", Surname = "james", Address = "Badlapur" },
+               new Employee { Id = 2, Name = "Malcolm B", Surname = "jagtap", Address = "Airoli" }
+                );
         }
 
     }
