@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployManagementApplication.Models
 {
-    public class EmployeeContext //: DbContext
+    public class EmployeeContext : DbContext
     {
         public EmployeeContext(DbContextOptions<EmployeeContext> options)
             : base(options)
