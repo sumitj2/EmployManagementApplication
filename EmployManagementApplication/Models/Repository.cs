@@ -11,7 +11,7 @@ namespace EmployManagementApplication.Models
       
 
 
-        private EmployeeContext dbcontext
+        private EmployeeContext dbcontext;
 
 
 
